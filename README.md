@@ -183,7 +183,6 @@ El siguiente paso será ejecutar el comando "npm run dev" desde el directorio ra
 
 Una vez realizado el proceso de puesta en marcha ya podemos realizar peticiones a la API.
 Podemos emplear un cliente web como puede Postman o Insomnia o también tenemos la opción de descargar el front-end de este proyecto y ejecutarlo para que hacer las peticiones mientras ejecutamos la aplicación.
-El front-end se puede descargar en el siguiente enlace: https://github.com/eduardoamdev/notes
 
 ## ¿Qué me ha aportado el desarrollo de esta aplicación?
 
