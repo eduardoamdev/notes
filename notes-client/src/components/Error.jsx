@@ -1,5 +1,5 @@
-import NavBar from './NavBar';
-import { useParams } from 'react-router-dom';
+import NavBar from "./NavBar";
+import { useParams } from "react-router-dom";
 
 const Error = () => {
   let params = useParams();
