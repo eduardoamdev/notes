@@ -8,7 +8,7 @@ const Error = () => {
 		<div>
 			<NavBar private={false} />
 			<div className="main-container flex-center title-container">
-				<h3>{error}</h3>
+        <h3>{error}</h3>
 			</div>
 		</div>
 	);
