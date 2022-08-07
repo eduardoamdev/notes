@@ -5,7 +5,7 @@ import Signup from "./components/Signup";
 import Login from "./components/Login";
 import PrivateRoute from "./components/PrivateRoute";
 import Session from "./components/Session";
-import Error from "./components/Erro";
+import Error from "./components/Error";
 import Notes from "./components/Notes";
 import Note from "./components/Note";
 import UpdateNote from "./components/UpdateNote";
