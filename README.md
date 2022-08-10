@@ -117,6 +117,8 @@ Una vez clonado el proyecto, accederemos a la raíz del mismo mediante nuestra t
 
 Para arrancar el proyecto debemos ejecutar el comando "npm start".
 
+En caso de estar que al arrancarlo en local nos de el error "error:0308010C:digital envelope routines::unsupported" deveremos cambiar la propiedad start del objeto scripts del package.json por "react-scripts --openssl-legacy-provider start". Si hemos hecho este cambio, deberemos establecer de nuevo "react-scripts start" para subirlo a producción.
+
 ## Tecnologías empleadas del lado del servidor
 
 ### Express
