@@ -62,7 +62,7 @@ const Login = () => {
             </div>
             <div className="flex-column margin-bottom-2">
               <label className="margin-bottom-1">Password:</label>
-              <input type="text" name="password" onChange={handleChange} />
+              <input type="password" name="password" onChange={handleChange} />
             </div>
             <input
               type="submit"
