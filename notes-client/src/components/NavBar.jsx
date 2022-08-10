@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
+import { Link } from "react-router-dom";
 
 const NavBar = (props) => {
   let navElements = [];
@@ -48,14 +49,18 @@ const NavBar = (props) => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand>Notes</Navbar.Brand>
+        <Navbar.Brand className="margin-right-2-5">Notes</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           {navElements.map((navElement) => {
             return (
-              <Nav.Link href={navElement.link} key={navElement.id}>
+              <Link
+                to={navElement.link}
+                key={navElement.id}
+                className="link margin-right-1-5"
+              >
                 {navElement.text}
-              </Nav.Link>
+              </Link>
             );
           })}
         </Navbar.Collapse>
